@@ -17,7 +17,7 @@ namespace Railway_Reservation.Models
         public string TrainName { get;set; }
         public string SourceStation { get; set; }
         public string DestinationStation { get; set; }
-        public Double Fare { get; set; }
+        public float Fare { get; set; }
         public string ArrivalTime { get; set; }
         public string DepartureTime { get; set;}
         public int TotalSeats { get; set;}

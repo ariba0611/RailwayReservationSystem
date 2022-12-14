@@ -20,7 +20,7 @@ namespace Railway_Reservation.Models
 
         [ForeignKey("User")]
         
-        public int User_Id{ get; set;}
+       public int User_Id{ get; set;}
         public User User { get; set; }
         public string QuotaType { get; set; }
         public string Res_Date { get; set; }
